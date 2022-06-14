@@ -1,4 +1,4 @@
-export default () => {
+export const Layout = () => {
     return(
         <>
             <nav></nav>

@@ -1,4 +1,4 @@
-export default ({txt, hidden}) => {
+export const SectionHeader = ({txt, hidden}) => {
     const rest_of_word = txt.toUpperCase().substr(1)
     const firstWord = txt[0]
     return(
