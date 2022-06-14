@@ -1,6 +1,6 @@
 import * as React from "react";
-import SectionHeader from "./SectionHeader";
-import SecondarySectionHeader from "./SecondarySectionHeader";
+import { SectionHeader } from "./SectionHeader";
+import { SecondarySectionHeader } from "./SecondarySectionHeader";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
