@@ -1,4 +1,4 @@
-export const SecondarySectionHeader = ({txt, hidden}) => {
+const SecondarySectionHeader = ({txt, hidden}) => {
     const rest_of_word = txt.toUpperCase().substr(1)
     const firstWord = txt[0]
     return(
@@ -24,3 +24,4 @@ export const SecondarySectionHeader = ({txt, hidden}) => {
         </div>
     )
 }
+export default SecondarySectionHeader ;

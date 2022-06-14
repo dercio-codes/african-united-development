@@ -19,7 +19,7 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-export const Contact = () => {
+const Contact = () => {
   return (
     <div
       style={{
@@ -252,3 +252,5 @@ export const Contact = () => {
     </div>
   );
 };
+
+export default Contact ;

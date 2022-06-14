@@ -3,7 +3,8 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
-import SectionHeader from "./SectionHeader";
+import { SectionHeader } from "./SectionHeader";
+import { SecondarySectionHeader } from "./SecondarySectionHeader";
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
